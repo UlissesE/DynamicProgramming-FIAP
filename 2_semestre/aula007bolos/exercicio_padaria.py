@@ -348,6 +348,7 @@ eh 9.
 '''
 
 def calcula_posicao_da_tabela(tabela, receitas, f, a):
+
     maior_lucro = 0
     for receita in receitas:
         farinha_receita = receita['farinha']
